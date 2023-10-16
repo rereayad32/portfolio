@@ -1,0 +1,134 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 75px;
+    background: rebeccapurple;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    gap: 15px;
+}
+
+.place {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media {
+    color: white;
+    display: flex;
+    gap: 7px;
+}
+
+.social-media a i {
+    color: white;
+}
+
+.header {
+    padding: 10px 263px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3f007d;
+    color: white;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.input-header {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 39px;
+    border-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: 154px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container .search-icon {
+    position: absolute;
+    left: 11px;
+    color: black;
+    top: 15px;
+    font-size: 15px;
+}
+
+.drop-down {
+    position: absolute;
+    right: 10px;
+    color: black;
+    top: 15px;
+}
+
+main {}
+
+main .background {
+    width: 100%;
+    height: 80%;
+}
+
+main div img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.social-media-container {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.social-media-container .fixes-link {
+    width: 32px;
+    height: 58px;
+    background: rebeccapurple;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.social-media-container .fixes-link:hover {
+    width: 45px;
+}
+
+.social-media div i {}
+
+.circle-fixed {
+    position: fixed;
+    top: 70%;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background: rebeccapurple;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle-fixed i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
